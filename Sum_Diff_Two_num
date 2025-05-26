@@ -1,0 +1,22 @@
+import java.util.*;
+public class Main
+{
+    static int add(int a,int b)
+    {
+        return a+b;
+    }
+    static int subtract(int a,int b)
+    {
+        return a-b;
+    }
+    public static void main(String []args)
+    {
+        Scanner sc = new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int sum=add( a, b);
+        int Diff=subtract( a, b);
+        System.out.printf("The sum of %d and %d is %d.\n",a,b,sum);
+        System.out.printf("The diffference b/w %d and %d id %d.",a,b,Diff);
+    }
+}
